@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 TELEGRAM_TOKEN   = os.environ["TELEGRAM_TOKEN"]
 ADMIN_CHAT_ID    = int(os.environ["ADMIN_CHAT_ID"])
 CHANNEL_ID       = os.environ["CHANNEL_ID"]          # например @mychannel или -100123456
-PIXABAY_API_KEY  =  os.environ["PIXABAY_API_KEY"]
+PEXELS_API_KEY   = os.environ["PEXELS_API_KEY"]
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 
 # ── Темы для поиска контента ─────────────────────────────────────────────────
